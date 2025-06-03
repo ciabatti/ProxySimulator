@@ -29,10 +29,15 @@ MyQkdSimulation/
 - NumPy
 - Matplotlib
 
+## Esecuzione
+python main.py
+
 MEMO: installare i requisiti tramite:
 
 ```bash
 pip install -r requirements.txt
+
+
 
 ## Esecuzione
 python main.py
