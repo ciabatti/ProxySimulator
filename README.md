@@ -14,18 +14,17 @@
 - Visualizzazione dei risultati tramite grafici.
 
 ## Struttura del progetto
-
+  ```plaintext
 MyQkdSimulation/
-├── main.py # Script principale di esecuzione
-├── channel.py # Funzioni di perdita e rumore
-├── protocol.py # Simulazione del BB84
-├── quantum_states.py # Stati e basi quantistiche
-├── requirements.txt # Dipendenze del progetto
-└── README.md # Documentazione
+│
+├── main.py              # Script principale di esecuzione
+├── channel.py           # Funzioni di perdita e rumore
+├── protocol.py          # Simulazione del BB84
+├── quantum_states.py    # Stati e basi quantistiche
+├── requirements.txt     # Dipendenze del progetto
+└── README.md            # Documentazione
+  ```
 
-markdown
-Copia
-Modifica
 
 ## Requisiti
 
@@ -40,10 +39,12 @@ Assicurati di avere un ambiente virtuale attivo, quindi installa le dipendenze:
 
 ```bash
 pip install -r requirements.txt
-Esecuzione
+```
+
+### Esecuzione
+
 Per avviare la simulazione:
 
-bash
-Copia
-Modifica
+```bash
 python main.py
+```
