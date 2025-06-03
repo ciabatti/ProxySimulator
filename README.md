@@ -15,13 +15,12 @@
 
 ## Struttura del progetto
 MyQkdSimulation/
-│ 
-│ ├── channel.py # Funzioni di perdita e rumore
-│ ├── protocol.py # Simulazione del BB84
-│ ├── quantum_states.py # Stati e basi quantistiche
 ├── main.py # Script principale di esecuzione
-├── requirements.txt # Dipendenze del progetto
-├── README.md # Documentazione
+├── channel.py # Funzioni di perdita e rumore
+├── protocol.py # Simulazione del BB84
+├── quantum_states.py # Stati e basi quantistiche
+├── README.md  # Documentazione
+
 
 ## Requisiti
 
@@ -34,3 +33,6 @@ MEMO: installare i requisiti tramite:
 
 ```bash
 pip install -r requirements.txt
+
+## Esecuzione
+python main.py
